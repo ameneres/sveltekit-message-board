@@ -4,7 +4,7 @@
 
     console.log(DOMAIN)
 
-		fetch(`${DOMAIN}/api/messages`)
+		fetch(`${DOMAIN}/api/message`)
       .then(data => console.log(data));
 
 	}
